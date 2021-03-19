@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+    <!--frontName define o router name, ou seja  dominio/router_name/controller/action-->
+        <route frontName="studymodule" id="studymodule">
+        <!-- Atribui a que módulo a rota está associada, sendo que Controller é a pasta dentro da pasta Controller-->
+            <module name="Renato_StudyModule"/>
+        </route>
+    </router>
+</config>
