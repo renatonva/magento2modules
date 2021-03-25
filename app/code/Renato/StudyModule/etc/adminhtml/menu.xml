@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Renato_StudyModule::studymodule" title="Study Module" module="Renato_StudyModule" sortOrder="51" resource="Renato_StudyModule::studymodule"/>
+        <add id="Renato_StudyModule::post" title="Manage Posts" module="Renato_StudyModule" sortOrder="10" action="renato_studymodule/post" resource="Renato_StudyModule::post" parent="Renato_StudyModule::studymodule"/>
+        <add id="Renato_StudyModule::studymodule_configuration" title="Configuration" module="Renato_StudyModule" sortOrder="99" parent="Renato_StudyModule::studymodule" action="adminhtml/system_config/edit/section/studymodule" resource="Renato_StudyModule::studymodule_configuration"/>
+    </menu>
+</config>
